@@ -1,0 +1,47 @@
+/*
+  Copyright 2006 by Sean Luke
+  Licensed under the Academic Free License version 3.0
+  See the file "LICENSE" for more information
+*/
+
+
+package GP;
+import ec.*;
+import ec.gp.*;
+
+public class Sin extends GPNode
+    {
+    @Override
+    public String toString() { return "*"; }
+
+    /*
+      public void checkConstraints(final EvolutionState state,
+      final int tree,
+      final GPIndividual typicalIndividual,
+      final Parameter individualBase)
+      {
+      super.checkConstraints(state,tree,typicalIndividual,individualBase);
+      if (children.length!=2)
+      state.output.error("Incorrect number of children for node " + 
+      toStringForError() + " at " +
+      individualBase);
+      }
+    */
+    @Override
+    public int expectedChildren() { return 1; }
+
+    @Override
+    public void eval(final EvolutionState state,
+        final int thread,
+        final GPData input,
+        final ADFStack stack,
+        final GPIndividual individual,
+        final Problem problem)
+        {
+        DoubleData rd = ((DoubleData)(input));
+
+        children[0].eval(state,thread,input,stack,individual,problem);
+
+        }
+    }
+

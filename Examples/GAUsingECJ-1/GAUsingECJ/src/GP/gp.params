@@ -1,0 +1,15 @@
+parent.0 = koza.params
+
+# Our Function Set
+gp.fs.0 = ec.gp.GPFunctionSet
+gp.fs.0.size = 3
+gp.fs.0.func.0 = GP.X
+gp.fs.0.func.0.nc = nc0
+gp.fs.0.func.1 = GP.Y
+gp.fs.0.func.1.nc = nc0
+gp.fs.0.func.2 = GP.Pow
+gp.fs.0.func.2.nc = nc2
+
+#stat = ec.gp.koza.KozaShortStatistics
+eval.problem.data = GP.MyData
+eval.problem = GP.MultiValuedRegression

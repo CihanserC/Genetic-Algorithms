@@ -1,0 +1,57 @@
+
+Generation: 0
+Best Individual:
+Subpopulation 0:
+Evaluated: T
+Fitness: 0.9109114645786838
+0.44105037167967287 0.0 0.22572165775269937 9.0 0.0
+
+Parameters:
+pop.subpop.0.species.mutation-prob = 0.44105037167967287
+pop.subpop.0.species.mutation-type = reset
+pop.subpop.0.species.mutation-stdev = 0.22572165775269937
+pop.subpop.0.species.mutation-distribution-index = 9
+pop.subpop.0.species.alternative-polynomial-version = false
+
+Underlying Individual:
+Evaluated: T
+Fitness: 0.9109114645786838
+0.9614778944169862 0.9261168406525915 0.8580257119639345 0.7366823064460842 0.5394587692095829
+
+Generation: 1
+Best Individual:
+Subpopulation 0:
+Evaluated: T
+Fitness: 0.9903572840624096
+0.5681241071975706 2.0 0.352024958736848 8.0 0.0
+
+Parameters:
+pop.subpop.0.species.mutation-prob = 0.5681241071975706
+pop.subpop.0.species.mutation-type = polynomial
+pop.subpop.0.species.mutation-stdev = 0.352024958736848
+pop.subpop.0.species.mutation-distribution-index = 8
+pop.subpop.0.species.alternative-polynomial-version = false
+
+Underlying Individual:
+Evaluated: T
+Fitness: 0.9903572840624096
+0.9940579768541262 0.9927654441290057 0.9807565559145721 0.9680205106723351 0.9376189517385853
+
+Generation: 2
+Best Individual:
+Subpopulation 0:
+Evaluated: T
+Fitness: 0.9967816717920385
+0.5681241071975706 2.0 0.352024958736848 8.0 1.0
+
+Parameters:
+pop.subpop.0.species.mutation-prob = 0.5681241071975706
+pop.subpop.0.species.mutation-type = polynomial
+pop.subpop.0.species.mutation-stdev = 0.352024958736848
+pop.subpop.0.species.mutation-distribution-index = 8
+pop.subpop.0.species.alternative-polynomial-version = true
+
+Underlying Individual:
+Evaluated: T
+Fitness: 0.9967816717920385
+0.9936526626822426 0.9889780487893419 0.9787463808907663 0.9606916458525278 0.9227240503896776
